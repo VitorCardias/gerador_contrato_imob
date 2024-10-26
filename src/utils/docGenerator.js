@@ -34,7 +34,7 @@ export const generateDocx = (contract) => {
           // Mapeia as seções e clausulas corretamente
           ...contract.secoes.flatMap((secao) => [
             new docx.Paragraph({
-              spacing: { before: 200, after: 200, line: 360 },
+              spacing: { before: 300, after: 300, line: 360 },
               children: [
                 new docx.TextRun({
                   text: secao.titulo,
@@ -47,7 +47,7 @@ export const generateDocx = (contract) => {
 
             ...secao.clausulas.flatMap((clausula) => [
               new docx.Paragraph({
-                spacing: { before: 200, after: 200, line: 360 },
+                spacing: { before: 300, after: 300, line: 370 },
                 alignment: docx.AlignmentType.JUSTIFIED,
                 children: [
                   new docx.TextRun({
@@ -63,24 +63,28 @@ export const generateDocx = (contract) => {
                   }),
                 ],
               }),
-              ...clausula.paragrafos.map((paragrafo) => 
+              ...clausula.paragrafos.filter((paragrafo) => paragrafo.titulo || paragrafo.content).map((paragrafo) => 
                 new docx.Paragraph({
-                  spacing: { before: 100, after: 100, line: 360 },
+                  spacing: { before: 200, after: 200, line: 360 },
                   alignment: docx.AlignmentType.JUSTIFIED,
                   children: [
-                    new docx.TextRun({
-                      text: `${paragrafo.titulo ? paragrafo.titulo + ': ' : ''}`,
-                      font: 'Arial',
-                      size: 24,
-                      bold: true,
-                    }),
-                    new docx.TextRun({
-                      text: `${paragrafo.content}`,
-                      font: 'Arial',
-                      size: 24,
+                    paragrafo.titulo
+                    ? new docx.TextRun({
+                        text: `${paragrafo.titulo + ': '}`,
+                        font: 'Arial',
+                        size: 24,
+                        bold: true,
+                      })
+                    : null,
 
-                    }),
-                  ],
+                    paragrafo.content
+                    ? new docx.TextRun({
+                        text: `${paragrafo.content}`,
+                        font: 'Arial',
+                        size: 24,
+                      })
+                    : null,
+                  ].filter(Boolean),
                 })
               ),
             ]),
