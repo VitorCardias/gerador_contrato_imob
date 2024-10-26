@@ -1,0 +1,324 @@
+{
+    "contratos": [
+      {
+        "id": "compra_e_venda_a_vista",
+        "titulo": "CONTRATO PARTICULAR DE PROMESSA DE COMPRA E VENDA DE IMÓVEL URBANO À VISTA",
+        "texto_inicial": "Pelo presente instrumento particular as partes, abaixo qualificadas, têm entre si justo e contratado a Promessa de Compra e Venda do imóvel adiante descrito e caracterizado, nos termos das cláusulas e condições que se obrigam a cumprir, por si mesmos, seus herdeiros e sucessores, conforme segue;",
+        "texto_final": "E assim, por estarem justos e contratados, assinam o presente instrumento contratual de Promessa de Compra e Venda de Imóveis, em três vias de igual teor e forma, todas para o mesmo fim, perante as testemunhas abaixo assinadas e identificadas.",
+        "data": "{{local_data}}",
+        "secoes": [
+          {
+            "titulo": "I – DAS PARTES",
+            "clausulas": [
+              { 
+                "titulo": "PROMITENTE VENDEDOR", "descricao": "Identificação completa dos vendedores e compradores..." ,
+                "content": "{{vendedor_nome}}, {{vendedor_nacionalidade}}, {{vendedor_profissao}}, portador da Carteira de Identidade (CI) com Registro Geral (RG) de nº {{vendedor_rg}}, expedida por {{vendedor_expedicao}}, inscrito no Cadastro de Pessoas Físicas (CPF) sob nº {{vendedor_CPF}}, {{vendedor_estadoCivil}}, (se casado ou união estável) casado com NOME, nacionalidade, profissão, portadora da Carteira de Identidade (CI) com Registro Geral (RG) de nº .........................., expedida por (ex: SJS/RS), inscrita no Cadastro de Pessoas Físicas (CPF) sob n.º ....................., (ambos) residentes e domiciliados no logradouro (nome), número, complemento, na cidade de (nome), estado de (nome), doravante designados simplesmente de PROMITENTES VENDEDORES, e; ",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "PROMITENTE COMPRADOR", "descricao": "Identificação completa dos vendedores e compradores..." ,
+                "content": "{{comprador_nome}}, {{comprador_nacionalidade}}, {{comprador_profissao}}, portador da Carteira de Identidade (CI) com Registro Geral (RG) de nº {{comprador_rg}} expedida por {{comprador_expedicao}}, inscrito no Cadastro de Pessoas Físicas (CPF) sob nº {{comprador_CPF}}, {{comprador_estadoCivil}}, (se casado ou união estável) casado com NOME, nacionalidade, profissão, portadora da Carteira de Identidade (CI) com Registro Geral (RG) de nº ..........................., expedida por (ex: SJS/RS), inscrita no Cadastro de Pessoas Físicas (CPF) sob n.º ......................, (ambos) residentes e domiciliados no logradouro (nome), número, complemento, na cidade de (nome), estado de (nome), doravante designados simplesmente de PROMITENTES COMPRADORES, e",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "II – DO OBJETO",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 1ª" , "descricao": "Identifica os vendedores como legítimos proprietários do imóvel descrito.",
+                "content": "Os PROMITENTES VENDEDORES são senhores, possuidores e legítimos proprietários dos imóveis a seguir descritos e caracterizados, conforme a Certidão de Registro Imobiliário Matriculada sob o nº {{imovel_matricula}} constante do {{imovel_descricao}} (TRANSCRIÇÃO EXATA, COMPLETA E LITERAL DA DESCRIÇÃO DO IMÓVEL, CONFORME A CERTIDÃO DE MATRÍCULA IMOBILIÁRIA, ATUALIZADA, DO REGISTRO DE IMÓVEIS).",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "CLÁUSULA 2ª" , "descricao": "Os vendedores prometem vender o imóvel, e os compradores prometem comprá-lo mediante o pagamento integral.",
+                "content": "Pelo presente instrumento e na melhor forma de direito, os PROMITENTES VENDEDORES prometem vender, transferindo a propriedade plena e exclusiva dos imóveis descritos e caracterizados na CLÁUSULA 1ª deste instrumento, aos PROMITENTES COMPRADORES, que, por sua vez, prometem comprar os referidos imóveis, realizando o pagamento integral do preço, conforme o valor e a forma de pagamento descritos na CLÁUSULA 3ª, imóveis esses, dos quais os PROMITENTES VENDEDORES são os legítimos proprietários, e os possuem de forma livre e desembaraçada de quaisquer ônus reais, pessoais, patrimoniais, fiscais, tributários, judiciais, administrativos, extrajudiciais, penhoras, arrestos, sequestros e restrições de qualquer natureza, que possam vir a prejudicar o presente negócio jurídico.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "III – DO PREÇO E DA FORMA DE PAGAMENTO",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 3ª" , "descricao": "O valor total e as condições de pagamento da compra do imóvel são definidos.",
+                "content": "O preço certo e ajustado da compra e venda, ora prometida, é de R$ {{imovel_valor}} {{imovel_valorEscrito}} a ser satisfeito da seguinte forma:",
+                "paragrafos": [
+                  {
+                    "titulo": "PARÁGRAFO 1ª",
+                    "content": "O valor de R$ {{imovel_valor}} {{imovel_valorEscrito}},será pago em moeda corrente nacional, a título de sinal de negócio e princípio de pagamento no momento da assinatura do presente instrumento particular, através de (TED, PIX, Depósito, Etc…) para (instituição financeira, banco), Agência nº {{agencia}}, Conta Corrente nº {{conta_corrente}}, de titularidade de NOME COMPLETO, por conta do qual os PROMITENTES VENDEDORES darão aos PROMITENTES COMPRADORES, plena, cabal e irrevogável quitação deste valor, por meio da assinatura deste instrumento, contra a apresentação dos comprovantes do pagamento realizado pelos PROMITENTES COMPRADORES."
+                  },
+                  { 
+                    "titulo": "PARÁGRAFO 2ª",
+                    "content": "O saldo restante do preço ajustado será pago integralmente, em uma única parcela à vista, no valor de R$123.456,78 (valor escrito por extenso), no mesmo momento da assinatura da Escritura Pública Definitiva de Compra e Venda no Tabelionato de Notas, em data a ser definida, mas que não poderá exceder a 30 (trinta) dias à partir da data de assinatura do presente instrumento, através do mesmo meio de pagamento do PARÁGRAFO 1º desta cláusula, sendo que, o atraso ou inadimplemento do saldo será considerado inexecução do presente contrato, e aplicar-se-á as sanções previstas nos Artigos 418 e 419 do Código Civil."
+                  },
+                  { 
+                    "titulo": "PARÁGRAFO 3ª",
+                    "content": "Fica assegurado aos PROMITENTES VENDEDORES, a qualquer tempo, mesmo após a outorga da Escritura Pública Definitiva de Compra e Venda ou do Registro Imobiliário, o direito de cobrar dos PROMITENTES COMPRADORES todas e quaisquer prestações, multas, juros, atualização monetária, encargos ou despesas de cobrança decorrentes do atraso ou inadimplemento dos pagamentos ora pactuados."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "IV – DA POSSE",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 4ª" , "descricao": "Os compradores assumem a posse precária do imóvel na assinatura do contrato, e a posse definitiva com a quitação total.",
+                "content": "Os PROMITENTES COMPRADORES serão imitidos na posse precária dos imóveis no momento da assinatura do presente instrumento (ou na data estipulada), e a imissão na posse definitiva ocorrerá no momento da assinatura da Escritura Pública Definitiva de Compra e Venda e da quitação integral do preço, conforme a forma de pagamento e os valores estabelecidos na CLÁUSULA 3ª e respectivos PARÁGRAFOS, deste instrumento.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "V – DO ARREPENDIMENTO",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 5ª" , "descricao": "As partes renunciam ao direito de arrependimento, tornando o contrato irrevogável e irretratável.",
+                "content": "O presente Contrato Particular de Promessa de Compra e Venda é pactuado com expressa renúncia de arrependimento e em caráter irrevogável, irretratável e de execução compulsória, obrigando as partes, seus bens, herdeiros e sucessores ao aqui ajustado. Não obstante, responderão os PROMITENTES VENDEDORES pela evicção de direitos conforme disposto no Artigo 447, e seguintes, do Código Civil.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "VI – DAS DESPESAS",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 6ª" , "descricao": "Despesas e encargos até a assinatura do contrato são responsabilidade dos vendedores.",
+                "content": "Todas as obrigações, despesas, taxas, impostos e outros encargos fiscais incidentes sobre os imóveis que são objetos da presente Promessa de Compra e Venda, conhecidas ou desconhecidas, mas que sejam decorrentes da propriedade imobiliária existente até a data da assinatura do presente instrumento, são de responsabilidade exclusiva dos PROMITENTES VENDEDORES, cabendo a estes dar-lhes plena e cabal quitação.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "CLÁUSULA 7ª" , "descricao": "Despesas e encargos após a assinatura do contrato são responsabilidade dos compradores.",
+                "content": "Serão de responsabilidade dos PROMITENTES COMPRADORES, todas as obrigações, despesas, taxas, impostos e encargos fiscais devidos, relativos aos imóveis prometidos neste contrato, à partir da data da assinatura do presente instrumento, ainda que lançados em nome dos PROMITENTES VENDEDORES, assim como, também serão de responsabilidade dos PROMITENTES COMPRADORES, todos os custos, despesas, taxas, impostos e encargos realizados para a efetivação da Transferência da Propriedade Imobiliária dos imóveis ora prometidos.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "VII – DA QUITAÇÃO",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 8ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "A quitação e adimplemento total das obrigações estabelecidas no presente instrumento, consiste, para os PROMITENTES COMPRADORES, no pagamento integral do preço ajustado entre as partes, conforme a forma e o valor estabelecidos na CLÁUSULA 3ª e respectivos PARÁGRAFOS, deste instrumento, e, para os PROMITENTES VENDEDORES, na outorga da propriedade plena e exclusiva sobre os imóveis ora prometidos aos PROMITENTES COMPRADORES, através da anuência, participação e promoção dos necessários e competentes atos de Transferência da Propriedade Imobiliária, como a lavratura da respectivas Escrituras Públicas Definitiva de Compra e Venda, e o subsequente Registro na Matrícula Imobiliária.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "VIII – DAS OBRIGAÇÕES",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 9ª" , "descricao": "Os vendedores devem garantir a transferência livre de ônus da propriedade.", 
+                "content": "Os PROMITENTES VENDEDORES obrigam-se a outorgar e assinar, em nome dos PROMITENTES COMPRADORES, ou a quem eles indicarem, a competente Escritura Pública Definitiva de Compra e Venda, totalmente livre e desembaraçada de quaisquer ônus real, fiscal ou gravames de qualquer natureza, sob pena de resolução contratual e consequentes penalidades previstas na CLÁUSULA 12ª deste instrumento, sem prejuízo das perdas e danos, nos termos do Artigo 389 do Código Civil.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "CLÁUSULA 10ª" , "descricao": "Os compradores devem cumprir o pagamento e providenciar os documentos necessários para a transferência.",
+                "content": "Os PROMITENTES COMPRADORES obrigam-se a realizar o pagamento integral do preço dos imóveis ora prometidos, nos exatos termos da CLÁUSULA 3ª deste instrumento, bem como diligenciar todas as providências e apresentar todos os documentos da sua competência, além de realizar o pagamento de todas as despesas decorrentes e necessários à Transferência da Propriedade Imobiliária desses imóveis, tais como o ITIVBI, taxas e emolumentos notariais para lavratura de escrituras e registros imobiliário, tributos, encargos, registros, averbações, anotações, certidões, dentre outras, cuja inexecução ensejará a inadimplência contratual e incidência das penalidades previstas na CLÁUSULA 12ª deste instrumento, sem prejuízo das perdas e danos, nos termos do Artigo 389 do Código Civil.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "CLÁUSULA 11ª" , "descricao": "Especifica penalidades para inadimplência dos vendedores.",
+                "content": "A mora dos PROMITENTES VENDEDORES consiste na recusa em dar recibo ou quitação dos pagamentos realizados pelos PROMITENTES COMPRADORES, ou em não lhes conceder a outorga da Escritura Pública de Compra e Venda, ou em não fornecer os documentos e informações necessários aos trâmites, ou, ainda, em criar qualquer óbice, dificultar ou não colaborar para a realização desses atos, e que não prescindam de sua participação, anuência ou promoção, sem motivos lícitos ou razões plausíveis, caso que ensejará aos PROMITENTES COMPRADORES o direito de pedir o suprimento judicial para sua realização, e ou a adjudicação compulsória dos imóveis, bem como a incidência das penalidades previstas na CLÁUSULA 12ª deste instrumento, sem prejuízo das perdas e danos, nos termos do Artigo 389 do Código Civil.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "IX - DA RESCISÃO",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 12ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "O presente contrato será rescindido na hipótese de descumprimento de qualquer de suas cláusulas e, mormente, se os PROMITENTES COMPRADORES ou os PROMITENTES VENDEDORES deixarem de atender qualquer norma ou encargo de sua responsabilidade.",
+                "paragrafos": [
+                  { 
+                    "titulo": "PARÁGRAFO 1ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                    "content": "No caso de rescisão do presente instrumento motivada por ações ou omissões dos PROMITENTES COMPRADORES, perderão os mesmos, em favor dos PROMITENTES VENDEDORES, a título de cláusula penal condenatória, o valor correspondente a 20% (vinte por cento) do valor dado como sinal de negócio e princípio de pagamento, nos termos do Artigo 408,  e subsequentes, do Código Civil, acrescidos dos honorários de intermediação imobiliária e honorários advocatícios, sem prejuízo das perdas e danos a apurar-se em procedimento próprio. ESSE VALOR DEVE SER ANALISADO CASO A CASO PARA NÃO TORNAR EXCESSIVA A MULTA. DEPENDENDO DO VALOR DO SINAL DEVE-SE ESTIPULAR O VALOR DA MULTA (10%, 20%...50%, DESDE QUE NÃO ULTRAPASSE O VALOR PRINCIPAL"
+                  },
+                  { 
+                    "titulo": "PARÁGRAFO 2ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                    "content": "Na hipótese de rescisão motivada por ações ou omissões dos PROMITENTES VENDEDORES, deverão estes, reembolsar aos PROMITENTES COMPRADORES, a totalidade do valor dado como sinal de negócio e princípio de pagamento, mais 20% (vinte por cento) do valor, a título de cláusula penal condenatória, nos termos do Artigo 408, e subsequentes, do Código Civil, acrescidos dos honorários de intermediação imobiliária e honorários advocatícios, sem prejuízo das perdas e danos a apurar-se em procedimento próprio. O VALOR ESTIPULADO NA CLÁUSULA ANTERIOR DEVERÁ SER UTILIZADO AQUI, EM NOME DO EQUILÍBRIO DO CONTRATO"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "X – DA INTERMEDIAÇÃO",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 13ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "A presente intermediação foi realizada sob o regime da Associação Imobiliária, nos termos do Artigo 6º, e respectivos parágrafos, da Lei Nº 6.530/1978, pela Imobiliária Fernando Flores, inscrita no CRECI sob n.º 23.477J, com sede na Rua Alberto Pasqualini nº 111, Loja 01, Edifício Arquipélago, perímetro urbano desta cidade, com a participação do Corretor Associado NOME COMPLETO, inscrito no CRECI/RS sob o nº ......... e no CPF de nº ................, os quais receberão conjuntamente, a título de honorários de intermediação e corretagem imobiliária, o valor correspondente a 6% (seis por cento) (OU O VALOR EXATO RECEBIDO) do valor total da venda, em moeda corrente nacional, no momento da assinatura do presente instrumento (ou  outra data acertada entre as partes).",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "XI - CONDIÇÕES GERAIS DE CONTRATO",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 14ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "Os PROMITENTES COMPRADORES declaram haver examinado na íntegra, todas as dependências dos imóveis, bem como, declaram que os mesmos estão em condições e sem qualquer restrição para gozo, uso e habitação, e assim, nas mesmas condições em que se encontram, os PROMITENTES VENDEDORES comprometem-se a entregar os imóveis prometidos no presente instrumento de contrato. NO CASO DE IMÓVEL PRONTO",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "CLÁUSULA 15ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "O presente contrato cancela ou substitui todo e qualquer outro ajuste oral ou informal celebrado entre as partes contratantes, e os PROMITENTES COMPRADORES, em vista disso, reconhecem que os PROMITENTES VENDEDORES não farão qualquer declaração, incentivo, promessa ou acordo relativamente aos objetos do presente contrato, que não estejam devidamente formalizados neste instrumento.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "XII - PROTEÇÃO DE DADOS",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 16ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "O tratamento de dados pessoais dos titulares, ora contratantes, nos  termos do Inciso V, do Artigo 7º, da Lei 13.709/2018 (Lei Geral de Proteção de Dados, LGPD), é necessário para a execução do presente contrato, bem como para a realização dos procedimentos preliminares relacionados ao contrato, do qual são partes os titulares, cujos procedimentos correspondem ao atendimento dos interesses dos contratantes e titulares dos dados relativos ao tratamento.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "CLÁUSULA 17ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "O tratamento de dados pessoais realizado pela Imobiliária Fernando Flores, na condição de Controlador, tendo em vista a execução deste contrato e sua condição de responsável técnico pela intermediação imobiliária objeto deste instrumento, em respeito ao prazo prescricional do Artigo 205 da Lei 10.406/02, Código Civil, manterá o tratamento dos dados pessoais das partes por até 10 (dez) anos após a conclusão da transmissão da propriedade objeto deste contrato, período após o qual, todos os Dados serão eliminados ou anonimizados.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "CLÁUSULA 18ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "A Imobiliária Fernando Flores reconhece suas responsabilidades como Controlador de Dados, valoriza e promove a Proteção de Dados, assegurando que o tratamento de dados pessoais que realiza, está em conformidade com a Lei nº 13.709/18, LGPD, regulamentos e orientações da Autoridade Nacional de Proteção de Dados - ANPD, garantindo respeito e atendimento aos direitos dos titulares e aos princípios da Proteção de Dados.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titulo": "XIII - DAS CONDIÇÕES FINAIS",
+            "clausulas": [
+              { 
+                "titulo": "CLÁUSULA 19ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "Para todos os fins e efeitos de direito, os contratantes declaram aceitar o presente contrato nos expressos termos em que foi lavrado, obrigando-se a si, seus bens, seus herdeiros e sucessores, a qualquer título e a todo tempo e lugar, a bem e fielmente cumpri-lo, sob as penas da lei.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              },
+              { 
+                "titulo": "CLÁUSULA 20ª" , "descricao": "Define a quitação total com base no pagamento integral e transferência de propriedade.",
+                "content": "As partes elegem o Foro da Comarca de Santa Maria para dirimir quaisquer dúvidas ou controvérsias que venham a existir, decorrentes da execução ou interpretação das cláusulas do presente instrumento e das leis, renunciando a qualquer outro Foro, por mais privilegiado que seja.",
+                "paragrafos": [
+                  {
+                    "titulo": "",
+                    "content": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "locacao",
+        "titulo": "CONTRATO DE LOCAÇÃO DE IMÓVEL",
+        "secoes": [
+          {
+            "titulo": "I – DAS PARTES",
+            "descricao": "Identificação das partes locadoras e locatárias...",
+            "clausulas": [
+              { "titulo": "Cláusula 1ª", "descricao": "Identificação completa do locador e locatário..." },
+              { "titulo": "Cláusula 2ª", "descricao": "Objeto da locação..." }
+            ]
+          }
+        ]
+      }
+    ]
+  }
