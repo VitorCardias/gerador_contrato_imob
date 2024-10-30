@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(5, 12, 31);
+}
+.botao{
+    background-color: rgb(33, 201, 244);
+    color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    margin: 0.5rem;
+    font-size: medium   ;
+}
+.classBotao{
+    width: 90%;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    margin-top: 0.8rem;
+}
+.titulo{
+    color: white;
+}

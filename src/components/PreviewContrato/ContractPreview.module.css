@@ -1,0 +1,17 @@
+.preview_container {
+    width: 70%;
+    margin: auto;
+    color: white
+}
+.preview_container p{
+    text-align: justify;
+    background-color: rgb(47, 68, 108);
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    border-color: #f8f8f8;
+    border: 1px solid
+}
+.preview_titulo {
+    width: 100%;
+    text-align: center;
+}

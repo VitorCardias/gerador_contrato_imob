@@ -1,13 +1,14 @@
 // src/components/ContractPreview.js
 import React from 'react';
+import styles from './ContractPreview.module.css'
 
 const ContractPreview = ({ previewContract }) => {
   if (!previewContract) return null;
 
   return (
-    <div>
+    <div className={styles.preview_container}>
       <h2>Esboço do Contrato:</h2>
-      <h3>{previewContract.titulo}</h3>
+      <h3 className={styles.preview_titulo}>{previewContract.titulo}</h3>
       <p>{previewContract.texto_inicial}</p>
       {previewContract.secoes.map((secao, index) => (
         <div key={index}>
@@ -15,9 +16,9 @@ const ContractPreview = ({ previewContract }) => {
           {secao.clausulas.map((clausula, idx) => (
             <div key={idx}>
               <p>
-                {clausula.titulo}: {clausula.content}
+                <strong>{clausula.titulo}:</strong> {clausula.content}
               </p>
-              {clausula.paragrafos.map((paragrafo, id) => (
+              {clausula.paragrafos.filter((paragrafo) => paragrafo.titulo || paragrafo.content).map((paragrafo, id) => (
                 <p key={id}>
                   {paragrafo.titulo === "" ? false : `${paragrafo.titulo}: ${paragrafo.content}`}
                 </p>
