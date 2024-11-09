@@ -1,0 +1,47 @@
+.containerGenerate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputGenerate {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.inputGenerate input {
+    width: 100%;
+    color: white;
+    background-color: rgb(26, 43, 77);
+    border-radius: 0.3rem;
+    border-color: #f8f8f8;
+    border: 1px solid;
+    padding: 0.5rem;
+}
+input::placeholder {
+    color: #c9c9c9;
+    opacity: 0.5;
+}
+.SendButton {
+    padding: 0.5rem;
+    background-color: #4bc52f;
+    color: #f8f8f8;
+    margin: 0 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+.informationButtons {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.GenerateButton {
+    padding: 0.5rem;
+    background-color: #c5d819;
+    color: #f8f8f8;
+    margin: 0 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+}

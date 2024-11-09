@@ -33,13 +33,14 @@ const Gerador = () => {
     if (selectedContract) {
       const contractWithValues = replacePlaceholders(selectedContract, formValues);
       setPreviewContract(contractWithValues);
+    } else {
+      console.warn("No contract selected.");
     }
   };
 
   const handleGenerate = () => {
-    if (selectedContract) {
-      const contractWithValues = replacePlaceholders(selectedContract, formValues);
-      generateDocx(contractWithValues);
+    if (previewContract) {
+      generateDocx(previewContract); // Gera o arquivo com o estado mais recente
     }
   };
 
@@ -50,6 +51,10 @@ const Gerador = () => {
       const placeholders = extractPlaceholders(contract);
       setFormValues(placeholders.reduce((acc, key) => ({ ...acc, [key]: '' }), {}));
     }
+  };
+
+  const handleUpdateContract = (updatedContract) => {
+    setPreviewContract(updatedContract); // Atualiza o contrato no estado de Gerador
   };
 
   return (
@@ -68,7 +73,10 @@ const Gerador = () => {
             <button className={styles.botao} onClick={handlePreview}>Visualizar Esboço</button>
             <button className={styles.botao} onClick={handleGenerate}>Gerar Documento</button>
           </div>
-          <ContractPreview previewContract={previewContract} />
+          <ContractPreview
+            previewContract={previewContract}
+            onUpdateContract={handleUpdateContract} // Passa a função para receber atualizações
+          />
         </>
       )}
     </div>

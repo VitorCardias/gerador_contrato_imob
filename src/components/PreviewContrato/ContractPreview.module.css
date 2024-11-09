@@ -1,17 +1,40 @@
 .preview_container {
     width: 70%;
     margin: auto;
-    color: white
+    color: white;
 }
-.preview_container p{
+.textarea{
     text-align: justify;
     background-color: rgb(47, 68, 108);
+    color: white;
     padding: 0.8rem;
     border-radius: 0.3rem;
     border-color: #f8f8f8;
-    border: 1px solid
+    width: 100%;
+    border: 1px solid;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Arial, sans-serif; /* Altere para a fonte desejada */
 }
 .preview_titulo {
     width: 100%;
     text-align: center;
+}
+.containerGenerate {
+    width: 100%;
+    display: flex;
+}
+.inputGenerate {
+    width: 80%;
+}
+.inputGenerate input {
+    width: 90%;
+    color: white;
+    background-color: rgb(26, 43, 77);
+    border-radius: 0.3rem;
+    border-color: #f8f8f8;
+    border: 1px solid;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
